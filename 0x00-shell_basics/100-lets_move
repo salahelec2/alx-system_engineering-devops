@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | grep -E '^[[:upper:]]\B' | xargs mv {} /tmp/u/
+ls | grep -E '^[[:upper:]]\B' | mv {} /tmp/u/
